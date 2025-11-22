@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Copy links",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "link_logo.png"
+    },
+    "permissions":[
+        "tabs"
+    ]
+}

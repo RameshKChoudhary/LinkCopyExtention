@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extenstion to copy links</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 10px;
+            min-width: 400px;
+        }
+        #clink{
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 260px;
+            height: 40px;
+        }
+        #savec ,#saveauto{
+            background-color: rgb(60, 183, 218);
+            border-radius: 10%;
+            margin: 10px;
+            width: 80px;
+            height: 40px;
+        }
+        ul{
+            list-style: none;
+            padding-left: 0;
+        }
+        li{
+            text-decoration: none;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(44, 134, 156);
+        }
+        #clearbutton{
+            color: rgb(20, 160, 170);
+            border: 1px solid black;
+            border-radius: 10%;
+            margin: 10px;
+            width: 80px;
+            height: 40px;
+        }
+    </style>
+    
+</head>
+<body>
+    <input placeholder="Enter link" value="" id="clink" />
+    <br/>
+    <button id="savec" onclick="savehandle()">Save</button>
+    <button id="saveauto" >Save Url</button>
+    <button id ="clearbutton" >Clear</button>
+    <ul id="allclinks"></ul>
+    
+    <script src="index.js"></script>
+</body>
+</html>
